@@ -20,7 +20,7 @@ public class AmazonLoginActions {
 	
 	public void loadAmazonHomePage(){
 		SetupDrivers.driver.get("https://www.amazon.com/");
-		AmazonLoginLocatorsObj.acntSignIn.click();
+//		AmazonLoginLocatorsObj.acntSignIn.click();
 	}
 	
 	public void input_email(){
