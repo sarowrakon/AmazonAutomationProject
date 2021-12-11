@@ -10,10 +10,6 @@ public class AllDropDownSeps {
     AmazonLoginActions AmazonLoginActionsobj = new AmazonLoginActions();
     AllDropDownActions AllDropDownActionsobj = new AllDropDownActions();
 
-    @Given("^user open Amazon Home page$")
-    public void user_open_Amazon_Home_page() throws Throwable {
-        AmazonLoginActionsobj.loadAmazonHomePage();
-    }
 
     @When("^user clicks on All$")
     public void user_clicks_on_All() throws Throwable {
