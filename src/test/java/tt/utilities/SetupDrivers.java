@@ -42,6 +42,8 @@ public class SetupDrivers {
 		if(driver!=null){
 //		driver.quit();
 		driver.close();
+
+		System.out.println("Browser is closed");
 		
 		}
 
