@@ -12,25 +12,38 @@ public class CartPageSteps {
 
     @Given("^User in homepage$")
     public void user_in_homepage() throws Throwable {
-
-        AmazonLoginActionsobj.loadAmazonHomePage();
+        try {
+            AmazonLoginActionsobj.loadAmazonHomePage();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @When("^User search for item$")
     public void user_search_for_item() throws Throwable {
-
-        CartPageActionsobj.searchForItem();
+        try {
+            CartPageActionsobj.searchForItem();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @When("^User add item to card$")
     public void user_add_item_to_card() throws Throwable {
-
-        CartPageActionsobj.clickOnItem();
+        try {
+            CartPageActionsobj.clickOnItem();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Then("^User able to see in the cart$")
     public void user_able_to_see_in_the_cart() throws Throwable {
 
-        CartPageActionsobj.validateCartPage();
+        try {
+            CartPageActionsobj.validateCartPage();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="writeExtentReport"/>
-          <include name="feature" invocation-numbers="0 1 2"/>
+          <include name="feature" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- tt.runners.RunnerClass -->

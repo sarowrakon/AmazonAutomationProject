@@ -12,16 +12,21 @@ public class CartPageLocators {
     @FindBy(xpath= "//*[@id=\'nav-search-submit-button\']")
     public WebElement submitBtn;
 
-    @FindBy(xpath= "//span[contains(text(),'2021 Apple MacBook Pro (16-inch, Apple M1 Pro chip with 10‑core CPU and 16‑core GPU, 16GB RAM, 512GB SSD) - Sil')]")
+    @FindBy(xpath= "//*[contains(text(),'Apple 13.3 inches MacBook Air with Retina Display')]")
     public WebElement itemMacBk;
 
-    @FindBy(xpath= "//*[@id=\"a-autoid-0-announce\"]/span[1]")
+    @FindBy(xpath= "//*[@id=\'a-autoid-0-announce\']")
     public WebElement qntyBtn;
+
+    @FindBy(xpath= "//*[@id=\'quantity_1\']")
+    public WebElement qntyTwo;
+
+
 
     @FindBy(xpath= "//*[@id=\'attachSiNoCoverage\']/span/input")
     public WebElement noPrtectionBtn;
 
-    @FindBy(xpath= "//*[@id=\'add-to-cart-button\']")
+    @FindBy(xpath= "//*[@id=\"add-to-cart-button\"]")
     public WebElement addToCartBtn;
 
     @FindBy(xpath= "//*[@id=\"attachDisplayAddBaseAlert\"]/div/h4")

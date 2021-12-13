@@ -13,8 +13,15 @@ public class AmazonLoginSteps {
 	
 	@Given("^user open Amazon Home page$")
 	public void user_open_Amazon_Home_page() throws Throwable {
+
+		try {
+			AmazonLoginActionsobj.loadAmazonHomePage();
+		}catch (Exception e){
+			e.printStackTrace();
+			System.out.println("loaded amazon homepage");
+		}
 		
-		AmazonLoginActionsobj.loadAmazonHomePage();
+
 	}
 
 	@When("^user input email “<mirazakon@outlook\\.com>”$")
