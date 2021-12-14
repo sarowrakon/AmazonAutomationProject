@@ -37,6 +37,15 @@ public class PrimeVdoActions {
         String primeTitle = driver.getTitle();
         Assert.assertEquals("Amazon.com: Prime Video: Prime Video", primeTitle);
         System.out.println("Title: "+primeTitle);
+
+        if (primeTitle.contains("Amazon.com: Prime Video: Prime Video")) {
+            System.out.println(">>> PASSED");
+        } else {
+            System.out.println(">>> FAILED");
+            Assert.fail();
+        }
     }
+
+
 
 }

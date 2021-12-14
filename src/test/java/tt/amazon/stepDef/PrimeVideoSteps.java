@@ -12,7 +12,11 @@ public class PrimeVideoSteps {
 
     @Given("^user in Amazon Home page$")
     public void user_in_Amazon_Home_page() throws Throwable {
-        AmazonLoginActionsobj.loadAmazonHomePage();
+        try {
+            AmazonLoginActionsobj.loadAmazonHomePage();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
     @When("^user clicks All$")
     public void user_clicks_All() throws Throwable {
@@ -48,6 +52,7 @@ public class PrimeVideoSteps {
         }catch (Exception e){
             e.printStackTrace();
         }
+
     }
 
 

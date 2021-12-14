@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 12, 2021 11:05:49 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 14, 2021 12:00:59 PM</span>
 				</a>
 			</li>
 			<li>
@@ -141,10 +141,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -156,10 +156,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -174,7 +174,7 @@
 					<span class='tooltipped' data-position='top' data-tooltip='76.923%'><span class='strong'>10</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='15.385%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='7.692%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='7.692%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='15.385%'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -188,15 +188,15 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Cart Page Functionality</span>
-						<span class='test-time'>Dec 12, 2021 11:05:49 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Dec 14, 2021 12:00:59 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 33s+120ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 20s+200ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User can add item into cart</span>
@@ -218,49 +218,20 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='5' class='node and fail' status='fail'>
+		<li test-id='5' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And User add item to card</span>
-				<div class='pre'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-9L5U5K8V', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\mahin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b8757c756f0f939a7dd13ffd947a78b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.click(Unknown Source)
-	at tt.amazon.pageAction.CartPageActions.clickOnItem(CartPageActions.java:32)
-	at tt.amazon.stepDef.CartPageSteps.user_add_item_to_card(CartPageSteps.java:28)
-	at ?.And User add item to card(CartPageFunction.feature:7)
-</pre></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node then skip' status='skip'>
+		<li test-id='6' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then User able to see in the cart</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
@@ -272,12 +243,12 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>Log in Funtionality</span>
-						<span class='test-time'>Dec 12, 2021 11:06:23 PM</span>
+						<span class='test-time'>Dec 14, 2021 12:01:20 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='8' status='fail'>
-	<span class='duration right label'>0h 0m 26s+275ms</span>
+	<span class='duration right label'>0h 0m 47s+561ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Sign in  Functionality</span>
@@ -291,38 +262,57 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='10' class='node when pass' status='pass'>
+		<li test-id='10' class='node when fail' status='fail'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When user input email “<mirazakon@outlook.com>”</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><textarea>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ap_email']"}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-9L5U5K8V', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\mahin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c3e4d757fe6503f0c7c8663ab27d9c7
+*** Element info: {Using=xpath, value=//*[@id='ap_email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at tt.amazon.pageAction.AmazonLoginActions.input_email(AmazonLoginActions.java:27)
+	at tt.amazon.stepDef.AmazonLoginSteps.user_input_email_mirazakon_outlook_com(AmazonLoginSteps.java:29)
+	at ?.When user input email “<mirazakon@outlook.com>”(LoginFunctionality.feature:6)
+</textarea></div>
 			
 		</li>
-		<li test-id='11' class='node and pass' status='pass'>
+		<li test-id='11' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And user enter passwords “<TalentTech777>"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='12' class='node then fail' status='fail'>
+		<li test-id='12' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then user should able to land on his account</span>
-				<div class='pre'><pre>java.lang.NullPointerException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
-	at tt.amazon.pageAction.AmazonLoginActions.userProfile(AmazonLoginActions.java:38)
-	at tt.amazon.stepDef.AmazonLoginSteps.user_should_able_to_land_on_his_account(AmazonLoginSteps.java:32)
-	at ?.Then user should able to land on his account(LoginFunctionality.feature:8)
-</pre></div>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -334,12 +324,12 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>All button Funtionality</span>
-						<span class='test-time'>Dec 12, 2021 11:06:53 PM</span>
+						<span class='test-time'>Dec 14, 2021 12:02:07 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='14' status='pass'>
-	<span class='duration right label'>0h 0m 11s+17ms</span>
+	<span class='duration right label'>0h 0m 16s+619ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User ability to click and land by All Functionality</span>
@@ -443,14 +433,14 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 					<div class='category-heading'>
 						<span class='category-name'>@regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
-							<span class='label fail'>2</span>
+							<span class='label pass'>2</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							<span class='label red lighten-1 white-text'>Failed: 2</span>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -465,17 +455,17 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 12, 2021 11:05:49 PM</td>
+										<td>Dec 14, 2021 12:00:59 PM</td>
 										<td class='linked' test-id='1'>Cart Page Functionality</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Dec 12, 2021 11:06:23 PM</td>
+										<td>Dec 14, 2021 12:01:20 PM</td>
 										<td class='linked' test-id='7'>Log in Funtionality</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Dec 12, 2021 11:06:53 PM</td>
+										<td>Dec 14, 2021 12:02:07 PM</td>
 										<td class='linked' test-id='13'>All button Funtionality</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -523,7 +513,7 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.StaleElementReferenceException</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -538,16 +528,17 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Dec 12, 2021 11:05:58 PM</td>
-                                                        <td class='linked' test-id='5'>Cart Page Functionality.User can add item into cart.And User add item to card</td>
-                                                        <td><pre><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+                                                        <td>Dec 14, 2021 12:01:27 PM</td>
+                                                        <td class='linked' test-id='10'>Log in Funtionality.Sign in  Functionality.When user input email “<mirazakon@outlook.com>”</td>
+                                                        <td><pre><textarea>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ap_email']"}
   (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'LAPTOP-9L5U5K8V', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\mahin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b8757c756f0f939a7dd13ffd947a78b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\mahin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c3e4d757fe6503f0c7c8663ab27d9c7
+*** Element info: {Using=xpath, value=//*[@id='ap_email']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -558,54 +549,17 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.click(Unknown Source)
-	at tt.amazon.pageAction.CartPageActions.clickOnItem(CartPageActions.java:32)
-	at tt.amazon.stepDef.CartPageSteps.user_add_item_to_card(CartPageSteps.java:28)
-	at ?.And User add item to card(CartPageFunction.feature:7)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.NullPointerException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Dec 12, 2021 11:06:39 PM</td>
-                                                        <td class='linked' test-id='12'>Log in Funtionality.Sign in  Functionality.Then user should able to land on his account</td>
-                                                        <td><pre><pre>java.lang.NullPointerException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
-	at tt.amazon.pageAction.AmazonLoginActions.userProfile(AmazonLoginActions.java:38)
-	at tt.amazon.stepDef.AmazonLoginSteps.user_should_able_to_land_on_his_account(AmazonLoginSteps.java:32)
-	at ?.Then user should able to land on his account(LoginFunctionality.feature:8)
-</pre></pre></td>
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at tt.amazon.pageAction.AmazonLoginActions.input_email(AmazonLoginActions.java:27)
+	at tt.amazon.stepDef.AmazonLoginSteps.user_input_email_mirazakon_outlook_com(AmazonLoginSteps.java:29)
+	at ?.When user input email “<mirazakon@outlook.com>”(LoginFunctionality.feature:6)
+</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -649,19 +603,19 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 12, 2021 11:05:49 PM</div>
+					<div class='panel-lead'>Dec 14, 2021 12:00:59 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 12, 2021 11:07:04 PM</div>
+			 		<div class='panel-lead'>Dec 14, 2021 12:02:24 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 15s+7ms</div>
+					<div class='panel-lead'>0h 1m 25s+142ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -678,11 +632,11 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 						</tr>
 						<tr>
 							<td>@regression</td>
-							<td>1</td>
 							<td>2</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									33.333%
+									66.667%
 							</td>
 						</tr>
 					</table>
@@ -698,29 +652,29 @@ Session ID: 0b8757c756f0f939a7dd13ffd947a78b
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 2,
+				passParent: 2,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 2,
+				exceptionsParent: 1,
 				
-				passChild: 1,
-				failChild: 2,
+				passChild: 2,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 1,
 				
 				passGrandChild: 10,
-				failGrandChild: 2,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 1,
+				skipGrandChild: 2,
 				infoGrandChild: 0,
 				exceptionsGrandChild: 3,
 			};
