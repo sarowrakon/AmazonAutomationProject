@@ -35,6 +35,7 @@ public class CartPageActions {
 //        myDD.selectByValue("2");
         CartPageLocatorsobj.addToCartBtn.click();
         CartPageLocatorsobj.noPrtectionBtn.click();
+        SetupDrivers.driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 
     }
 

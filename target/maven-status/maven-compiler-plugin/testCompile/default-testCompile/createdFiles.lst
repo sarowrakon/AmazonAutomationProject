@@ -3,6 +3,7 @@ tt\amazon\stepDef\PrimeVideoSteps.class
 tt\amazon\stepDef\AmazonLoginSteps.class
 tt\amazon\pageAction\CartPageActions.class
 tt\utilities\AfterActions.class
+tt\utilities\ReadOracleDB.class
 tt\amazon\pageAction\PrimeVdoActions.class
 tt\amazon\pageElements\PrimeVdoLocators.class
 tt\amazon\pageElements\AmazonLoginLocators.class

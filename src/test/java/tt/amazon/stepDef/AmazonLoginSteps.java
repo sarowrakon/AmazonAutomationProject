@@ -6,6 +6,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import tt.amazon.pageAction.AmazonLoginActions;
 import tt.amazon.pageElements.AmazonLoginLocators;
+import tt.utilities.SetupDrivers;
+
+import java.util.concurrent.TimeUnit;
 
 public class AmazonLoginSteps {
 	AmazonLoginActions AmazonLoginActionsobj= new AmazonLoginActions();
@@ -20,7 +23,6 @@ public class AmazonLoginSteps {
 			e.printStackTrace();
 			System.out.println("loaded amazon homepage");
 		}
-		
 
 	}
 

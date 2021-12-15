@@ -3,8 +3,12 @@ package tt.amazon.stepDef;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import gherkin.formatter.model.Scenario;
 import tt.amazon.pageAction.AmazonLoginActions;
 import tt.amazon.pageAction.CartPageActions;
+import tt.utilities.SetupDrivers;
+
+import java.util.concurrent.TimeUnit;
 
 public class CartPageSteps {
     AmazonLoginActions AmazonLoginActionsobj = new AmazonLoginActions();
@@ -45,5 +49,7 @@ public class CartPageSteps {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        AmazonLoginActionsobj.screenShot();
     }
 }

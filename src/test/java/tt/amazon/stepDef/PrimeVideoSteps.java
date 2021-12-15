@@ -5,6 +5,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import tt.amazon.pageAction.PrimeVdoActions;
 import tt.amazon.pageAction.AmazonLoginActions;
+import tt.utilities.SetupDrivers;
+
+import java.util.concurrent.TimeUnit;
 
 public class PrimeVideoSteps {
     AmazonLoginActions AmazonLoginActionsobj = new AmazonLoginActions();
@@ -52,6 +55,8 @@ public class PrimeVideoSteps {
         }catch (Exception e){
             e.printStackTrace();
         }
+        SetupDrivers.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        AmazonLoginActionsobj.screenShot();
 
     }
 
