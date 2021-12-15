@@ -1,9 +1,13 @@
 package tt.amazon.pageAction;
 
+
 import gherkin.formatter.model.Scenario;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.PageFactory;
 
 import tt.amazon.pageElements.AmazonLoginLocators;
@@ -27,7 +31,9 @@ public class AmazonLoginActions {
 	
 	public void loadAmazonHomePage(){
 		SetupDrivers.driver.get("https://www.amazon.com/");
+
 //		AmazonLoginLocatorsObj.acntSignIn.click();
+
 
 	}
 	
@@ -38,7 +44,7 @@ public class AmazonLoginActions {
 	}
 	
 	public void input_password(){
-		AmazonLoginLocatorsObj.passBx.sendKeys("TalentTech777");
+		AmazonLoginLocatorsObj.passBx.sendKeys("TalentTech777#");
 		AmazonLoginLocatorsObj.signInBtn.click();
 	}
 	
@@ -53,9 +59,16 @@ public class AmazonLoginActions {
 		FileUtils.copyFile(screenshot, new File(".//ScreenShots/scenarioName.png"));
 	}
 	
-	
- 
+	public void mouseHoverPrime() throws Exception{
+		Actions actions =new Actions (SetupDrivers.driver);
+		actions.moveToElement(AmazonLoginLocatorsObj.linkPrime);
+		actions.perform();
+		Thread.sleep(3000);
+	}
+
+	public void clickTryPrime() throws Exception{
+		AmazonLoginLocatorsObj.linkTryPrime.click();
+		Thread.sleep(5000);
+	}
 	
 }
-
-	
