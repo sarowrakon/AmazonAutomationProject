@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "src/test/resource/FeatureFiles" }, glue = { "tt.amazon.stepDef", "tt.utilities" }, tags = {
-		"@regression" }, plugin = { "pretty", "html:target/cucumber-htmlreport", "json:target/cucumber-report.json",
+		"@regression"}, plugin = { "pretty", "html:target/cucumber-htmlreport", "json:target/cucumber-report.json",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports.html" }, monochrome = true)
 
 public class RunnerClass extends AbstractTestNGCucumberTests {
