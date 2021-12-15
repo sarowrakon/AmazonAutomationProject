@@ -31,7 +31,7 @@ public class AmazonLoginActions {
 	}
 	
 	public void input_password(){
-		AmazonLoginLocatorsObj.passBx.sendKeys("TalentTech777");
+		AmazonLoginLocatorsObj.passBx.sendKeys("TalentTech777#");
 		AmazonLoginLocatorsObj.signInBtn.click();
 	}
 	
@@ -52,5 +52,3 @@ public class AmazonLoginActions {
 	}
 	
 }
-
-	
