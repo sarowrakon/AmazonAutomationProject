@@ -24,4 +24,14 @@ public class AmazonLoginLocators {
 		@FindBy(xpath= "//*[contains(text(),'Hello, Miraz')]")
 		public WebElement acntName;
 
+	//Prime Mouse Hover
+	@FindBy(xpath= "//*[@id='nav-link-prime']/span[1]")
+	public WebElement linkPrime;
+
+	//Join Prime
+	@FindBy(xpath= "//a[contains(text(),'Try Prime')]")
+	public WebElement linkTryPrime;
+}
+
 	}
+

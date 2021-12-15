@@ -5,11 +5,8 @@ import cucumber.api.java.After;
 public class AfterActions {
 
 	@After
-	public void afterActions(){
+	public void afterActions() {
 		SetupDrivers.tearDownDriver();
 		System.out.println("--------- Test Complete");
 	}
 }
-
-
-
