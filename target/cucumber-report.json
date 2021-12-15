@@ -1,0 +1,298 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6112767100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User can add item into cart",
+        "description": "",
+        "id": "cart-page-functionality;user-can-add-item-into-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 293471000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2888484900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in homepage",
+            "match": {
+              "location": "CartPageSteps.user_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3585848200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search for item",
+            "match": {
+              "location": "CartPageSteps.user_search_for_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40107527700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User add item to card",
+            "match": {
+              "location": "CartPageSteps.user_add_item_to_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432428400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User able to see in the cart",
+            "match": {
+              "location": "CartPageSteps.user_able_to_see_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cart Page Functionality",
+    "description": "",
+    "id": "cart-page-functionality",
+    "keyword": "Feature",
+    "uri": "CartPageFunction.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5218735000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sign in  Functionality",
+        "description": "",
+        "id": "log-in-funtionality;sign-in--functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 130021900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2368650000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open Amazon Home page",
+            "match": {
+              "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40109868300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input email “\u003cmirazakon@outlook.com\u003e”",
+            "match": {
+              "location": "AmazonLoginSteps.user_input_email_mirazakon_outlook_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enter passwords “\u003cTalentTech777#\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should able to land on his account",
+            "match": {
+              "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log in Funtionality",
+    "description": "",
+    "id": "log-in-funtionality",
+    "keyword": "Feature",
+    "uri": "LoginFunctionality.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5098451500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User ability to click and land by All Functionality",
+        "description": "",
+        "id": "all-button-funtionality;user-ability-to-click-and-land-by-all-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 221467200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2058055300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in Amazon Home page",
+            "match": {
+              "location": "PrimeVideoSteps.user_in_Amazon_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2843729700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks All",
+            "match": {
+              "location": "PrimeVideoSteps.user_clicks_All()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2180413100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Prime Video",
+            "match": {
+              "location": "PrimeVideoSteps.user_clicks_on_Prime_Video()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5936786700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Prime Video again",
+            "match": {
+              "location": "PrimeVideoSteps.user_clicks_on_Prime_Video_again()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1339043900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should able to land on Amazon Prime Video",
+            "match": {
+              "location": "PrimeVideoSteps.user_should_able_to_land_on_Amazon_Prime_Video()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "All button Funtionality",
+    "description": "",
+    "id": "all-button-funtionality",
+    "keyword": "Feature",
+    "uri": "PrimeVdo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

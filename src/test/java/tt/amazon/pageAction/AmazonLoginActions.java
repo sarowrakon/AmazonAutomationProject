@@ -48,7 +48,6 @@ public class AmazonLoginActions {
 
 	public void screenShot() throws Exception{
 		//Screenshot:
-
 		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshot, new File(".//ScreenShots/scenarioName.png"));
 	}
