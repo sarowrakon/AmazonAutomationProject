@@ -33,5 +33,3 @@ public class AmazonLoginLocators {
 	public WebElement linkTryPrime;
 }
 
-	}
-
