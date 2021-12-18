@@ -12,10 +12,10 @@ public class CartPageLocators {
     @FindBy(xpath= "//*[@id=\'nav-search-submit-button\']")
     public WebElement submitBtn;
 
-    @FindBy(xpath= "//*[contains(text(),'Apple 13.3 inches MacBook Air with Retina Display')]")
+    @FindBy(partialLinkText= "//span[contains(text(),'Apple MacBook Air 13.3\" MQD32LL/A, Intel Core i5-5')]")
     public WebElement itemMacBk;
 
-    @FindBy(xpath= "//*[@id=\'a-autoid-0-announce\']")
+    @FindBy(xpath= "//span[contains(text(),'Qty:')]")
     public WebElement qntyBtn;
 
     @FindBy(xpath= "//*[@id=\'quantity_1\']")
@@ -33,3 +33,6 @@ public class CartPageLocators {
     public WebElement cartPageValidation;
 
 }
+
+
+////*[@id='a-autoid-0-announce']

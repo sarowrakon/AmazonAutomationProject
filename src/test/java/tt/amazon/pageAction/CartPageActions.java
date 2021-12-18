@@ -35,7 +35,7 @@ public class CartPageActions {
 //        myDD.selectByValue("2");
         CartPageLocatorsobj.addToCartBtn.click();
         CartPageLocatorsobj.noPrtectionBtn.click();
-        SetupDrivers.driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        SetupDrivers.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
     }
 
@@ -43,8 +43,8 @@ public class CartPageActions {
 //        Assert.assertEquals("Added to Cart", CartPageLocatorsobj.cartPageValidation.getText());
         String cartTitle = SetupDrivers.driver.getTitle();
         System.out.println("title:  "+cartTitle);
-        String actual = "Amazon.com: Apple 13.3 inches MacBook Air with Retina Display, Intel Core i5 8th Gen Dual-Core, 8GB RAM, 128GB SSD - Mid 2019, Space Gray MVFH2LL/A (Renewed) : Electronics";
-        Assert.assertEquals(actual,cartTitle);
+        String actual = "Amazon.com : macbook";
+        Assert.assertEquals(cartTitle,actual);
     }
 
 }
