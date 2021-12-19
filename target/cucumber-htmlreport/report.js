@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7657753200,
+  "duration": 7872151500,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "AmazonBasicsstepDef.user_click_on_amazon_basic()"
 });
 formatter.result({
-  "duration": 2399947000,
+  "duration": 1918181700,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonBasicsstepDef.user_select_Work_from_Home()"
 });
 formatter.result({
-  "duration": 5374959000,
+  "duration": 5905065400,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonBasicsstepDef.user_should_able_to_land_on_work_from_Home_page()"
 });
 formatter.result({
-  "duration": 118976600,
+  "duration": 119214300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 220674900,
+  "duration": 251788600,
   "status": "passed"
 });
 formatter.uri("AmazonPrimeMouseHover.feature");
@@ -79,7 +79,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5849685800,
+  "duration": 6916580600,
   "status": "passed"
 });
 formatter.scenario({
@@ -109,25 +109,25 @@ formatter.match({
   "location": "AmazonSearchSteps.open_Amazon_Homepage()"
 });
 formatter.result({
-  "duration": 2167663700,
+  "duration": 1814404900,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonPrimeMouseHoverSteps.mouse_Hover_to_Prime()"
 });
 formatter.result({
-  "duration": 3362673100,
+  "duration": 3661709200,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonPrimeMouseHoverSteps.click_on_Try_Prime()"
 });
 formatter.result({
-  "duration": 6445985100,
+  "duration": 6658911900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 186731000,
+  "duration": 4123056900,
   "status": "passed"
 });
 formatter.uri("AmazonReturn.feature");
@@ -145,7 +145,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 8917556500,
+  "duration": 5231576000,
   "status": "passed"
 });
 formatter.scenario({
@@ -180,32 +180,32 @@ formatter.match({
   "location": "AmazonSearchSteps.open_Amazon_Homepage()"
 });
 formatter.result({
-  "duration": 2129628300,
+  "duration": 2219819200,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.search_for_toys()"
 });
 formatter.result({
-  "duration": 4333701600,
+  "duration": 3690261500,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.item_list_should_have_only_toys_related_products()"
 });
 formatter.result({
-  "duration": 481518600,
+  "duration": 108491800,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.user_should_return_back_to_the_homepage()"
 });
 formatter.result({
-  "duration": 1349681100,
+  "duration": 1340875300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 223686900,
+  "duration": 213346800,
   "status": "passed"
 });
 formatter.uri("AmazonSearch.feature");
@@ -223,7 +223,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6422737700,
+  "duration": 5304554800,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,25 +253,25 @@ formatter.match({
   "location": "AmazonSearchSteps.open_Amazon_Homepage()"
 });
 formatter.result({
-  "duration": 1770646400,
+  "duration": 2053434300,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonSearchSteps.search_for_diapers()"
 });
 formatter.result({
-  "duration": 3888435900,
+  "duration": 4055113700,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonSearchSteps.item_list_should_have_only_diapers_related_products()"
 });
 formatter.result({
-  "duration": 190401500,
+  "duration": 115035100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 230413200,
+  "duration": 234160400,
   "status": "passed"
 });
 formatter.uri("CartPageFunction.feature");
@@ -289,7 +289,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4869543300,
+  "duration": 5010049500,
   "status": "passed"
 });
 formatter.scenario({
@@ -324,32 +324,32 @@ formatter.match({
   "location": "CartPageSteps.user_in_homepage()"
 });
 formatter.result({
-  "duration": 1765498700,
+  "duration": 2092915300,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_search_for_item()"
 });
 formatter.result({
-  "duration": 9521075100,
+  "duration": 3036868600,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_add_item_to_card()"
 });
 formatter.result({
-  "duration": 40564767700,
+  "duration": 40465288700,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_able_to_see_in_the_cart()"
 });
 formatter.result({
-  "duration": 294696000,
+  "duration": 434320500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 220678600,
+  "duration": 187361800,
   "status": "passed"
 });
 formatter.uri("EndtoEnd.feature");
@@ -367,7 +367,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6895665300,
+  "duration": 6449962700,
   "status": "passed"
 });
 formatter.scenario({
@@ -437,7 +437,7 @@ formatter.match({
   "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 3442496100,
+  "duration": 1183353400,
   "status": "passed"
 });
 formatter.match({
@@ -450,8 +450,8 @@ formatter.match({
   "location": "AmazonLoginSteps.user_input_email(String)"
 });
 formatter.result({
-  "duration": 40093468300,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027ap_email\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-9L5U5K8V\u0027, ip: \u0027192.168.0.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\mahin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6463c12464aa9cc847ee0afcccf7f638\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027ap_email\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat tt.amazon.pageAction.AmazonLoginActions.input_email(AmazonLoginActions.java:41)\r\n\tat tt.amazon.stepDef.AmazonLoginSteps.user_input_email(AmazonLoginSteps.java:30)\r\n\tat ✽.And user input email \"\u003cmirazakon@outlook.com\u003e\"(EndtoEnd.feature:6)\r\n",
+  "duration": 40429819000,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027ap_email\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-9L5U5K8V\u0027, ip: \u0027192.168.0.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\mahin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 656d92f35b59c0871ecf546ac01f82fc\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027ap_email\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat tt.amazon.pageAction.AmazonLoginActions.input_email(AmazonLoginActions.java:41)\r\n\tat tt.amazon.stepDef.AmazonLoginSteps.user_input_email(AmazonLoginSteps.java:30)\r\n\tat ✽.And user input email \"\u003cmirazakon@outlook.com\u003e\"(EndtoEnd.feature:6)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -521,7 +521,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 216133700,
+  "duration": 4138214700,
   "status": "passed"
 });
 formatter.uri("LoginFunctionality.feature");
@@ -539,7 +539,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3931410300,
+  "duration": 5734832400,
   "status": "passed"
 });
 formatter.scenario({
@@ -574,7 +574,7 @@ formatter.match({
   "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 3382464300,
+  "duration": 2347403900,
   "status": "passed"
 });
 formatter.match({});
@@ -592,7 +592,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 233789200,
+  "duration": 156625900,
   "status": "passed"
 });
 formatter.uri("PrimeVdo.feature");
@@ -610,7 +610,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5087445700,
+  "duration": 9764995200,
   "status": "passed"
 });
 formatter.scenario({
@@ -650,39 +650,39 @@ formatter.match({
   "location": "PrimeVideoSteps.user_in_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 2345732800,
+  "duration": 3410986000,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_All()"
 });
 formatter.result({
-  "duration": 774743300,
+  "duration": 742250200,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_on_Prime_Video()"
 });
 formatter.result({
-  "duration": 2366222700,
+  "duration": 2440709800,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_on_Prime_Video_again()"
 });
 formatter.result({
-  "duration": 2527302700,
+  "duration": 6724115800,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_should_able_to_land_on_Amazon_Prime_Video()"
 });
 formatter.result({
-  "duration": 1158099300,
+  "duration": 1875308400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 255918400,
+  "duration": 143260900,
   "status": "passed"
 });
 formatter.uri("SearchFromExcel.feature");
@@ -700,7 +700,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6307127100,
+  "duration": 9320658600,
   "status": "passed"
 });
 formatter.scenario({
@@ -725,18 +725,18 @@ formatter.match({
   "location": "PrimeVideoSteps.user_in_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 2408178100,
+  "duration": 2068852900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchFromExcelSteps.search_from_Excel()"
 });
 formatter.result({
-  "duration": 8798896800,
+  "duration": 11481685500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 241059000,
+  "duration": 4124082200,
   "status": "passed"
 });
 });
