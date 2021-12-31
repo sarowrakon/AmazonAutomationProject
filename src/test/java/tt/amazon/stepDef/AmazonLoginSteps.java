@@ -15,6 +15,9 @@ public class AmazonLoginSteps {
 	@Given("^user open Amazon Home page$")
 	public void user_open_Amazon_Home_page() throws Throwable {
 
+
+		System.out.println("In dbug step..");
+
 		try {
 			AmazonLoginActionsobj.loadAmazonHomePage();
 		}catch (Exception e){

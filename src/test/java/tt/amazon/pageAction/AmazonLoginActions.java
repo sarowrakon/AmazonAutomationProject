@@ -1,7 +1,5 @@
 package tt.amazon.pageAction;
 
-
-import gherkin.formatter.model.Scenario;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,60 +12,60 @@ import tt.amazon.pageElements.AmazonLoginLocators;
 import tt.utilities.SetupDrivers;
 
 import java.io.File;
-import java.util.concurrent.TimeUnit;
-
+import java.util.Set;
 
 public class AmazonLoginActions {
 	AmazonLoginLocators AmazonLoginLocatorsObj;
 
+	public AmazonLoginActions() {
 
-	public AmazonLoginActions (){
-	
-		AmazonLoginLocatorsObj= new AmazonLoginLocators();
-		PageFactory.initElements(SetupDrivers.driver, AmazonLoginLocatorsObj);	
-		
-		
-	}
-	
-	public void loadAmazonHomePage(){
-		SetupDrivers.driver.get("https://www.amazon.com/");
-
-//		AmazonLoginLocatorsObj.acntSignIn.click();
-
+		AmazonLoginLocatorsObj = new AmazonLoginLocators();
+		PageFactory.initElements(SetupDrivers.driver, AmazonLoginLocatorsObj);
 
 	}
-	
-	public void input_email(){
+
+	public void loadAmazonHomePage() {
+		 SetupDrivers.driver.get("https://www.amazon.com/");
+
+		AmazonLoginLocatorsObj.acntSignIn.click();
+
+	}
+
+	public void input_email() {
 		AmazonLoginLocatorsObj.emailBx.sendKeys("mirazakon@outlook.com");
 		AmazonLoginLocatorsObj.contBtn.click();
-		
+
 	}
-	
-	public void input_password(){
+
+	public void input_password() {
 		AmazonLoginLocatorsObj.passBx.sendKeys("TalentTech777#");
 		AmazonLoginLocatorsObj.signInBtn.click();
 	}
-	
-	public void userProfile(){
+
+	public void userProfile() {
 		AmazonLoginLocatorsObj.acntName.isDisplayed();
 	}
 
-	public void screenShot() throws Exception{
-		//Screenshot:
-		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
+	public void screenShot() throws Exception {
+		// Screenshot:
+		File screenshot = ((TakesScreenshot) SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshot, new File(".//ScreenShots/scenarioName.png"));
 	}
-	
-	public void mouseHoverPrime() throws Exception{
-		Actions actions =new Actions (SetupDrivers.driver);
+
+	public void mouseHoverPrime() throws Exception {
+		Actions actions = new Actions(SetupDrivers.driver);
 		actions.moveToElement(AmazonLoginLocatorsObj.linkPrime);
 		actions.perform();
+		Set<String> allWindowHandles=SetupDrivers.driver.getWindowHandles();
+		int windowsSize=allWindowHandles.size();
+		System.out.println("Windows size:" + windowsSize);
+		AmazonLoginLocatorsObj.linkPrime.click();
 		Thread.sleep(3000);
 	}
 
-	public void clickTryPrime() throws Exception{
+	public void clickTryPrime() throws Exception {
 		AmazonLoginLocatorsObj.linkTryPrime.click();
 		Thread.sleep(5000);
 	}
-	
+
 }

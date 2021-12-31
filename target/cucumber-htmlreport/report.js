@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7657753200,
+  "duration": 5484708600,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "AmazonBasicsstepDef.user_click_on_amazon_basic()"
 });
 formatter.result({
-  "duration": 2399947000,
+  "duration": 1555259500,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonBasicsstepDef.user_select_Work_from_Home()"
 });
 formatter.result({
-  "duration": 5374959000,
+  "duration": 6207417100,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonBasicsstepDef.user_should_able_to_land_on_work_from_Home_page()"
 });
 formatter.result({
-  "duration": 118976600,
+  "duration": 78283100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 220674900,
+  "duration": 4179608800,
   "status": "passed"
 });
 formatter.uri("AmazonPrimeMouseHover.feature");
@@ -79,7 +79,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5849685800,
+  "duration": 3952968100,
   "status": "passed"
 });
 formatter.scenario({
@@ -92,42 +92,78 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "Open Amazon Homepage",
+  "name": "user open Amazon Home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "Mouse Hover to Prime",
-  "keyword": "When "
+  "name": "user input email \"\u003cmirazakon@outlook.com\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "Click on Try Prime",
-  "keyword": "Then "
+  "name": "user enter passwords \"\u003cTalentTech777#\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user should able to land on his account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Mouse Hover to Prime",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "AmazonSearchSteps.open_Amazon_Homepage()"
+  "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 2167663700,
+  "duration": 3074091300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cmirazakon@outlook.com\u003e",
+      "offset": 18
+    }
+  ],
+  "location": "AmazonLoginSteps.user_input_email(String)"
+});
+formatter.result({
+  "duration": 581270100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cTalentTech777#\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "AmazonLoginSteps.user_enter_passwords(String)"
+});
+formatter.result({
+  "duration": 216740600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+});
+formatter.result({
+  "duration": 2272006800,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonPrimeMouseHoverSteps.mouse_Hover_to_Prime()"
 });
 formatter.result({
-  "duration": 3362673100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AmazonPrimeMouseHoverSteps.click_on_Try_Prime()"
-});
-formatter.result({
-  "duration": 6445985100,
+  "duration": 6483957100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 186731000,
+  "duration": 4167401100,
   "status": "passed"
 });
 formatter.uri("AmazonReturn.feature");
@@ -145,7 +181,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 8917556500,
+  "duration": 4928427100,
   "status": "passed"
 });
 formatter.scenario({
@@ -158,54 +194,102 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "Open Amazon Homepage",
+  "name": "user open Amazon Home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "Search for toys",
-  "keyword": "When "
+  "name": "user input email \"\u003cmirazakon@outlook.com\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "Item list should have only toys related products",
+  "name": "user enter passwords \"\u003cTalentTech777#\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
+  "name": "user should able to land on his account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Search for toys",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "Item list should have only toys related products",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
   "name": "User should return back to the homepage",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonSearchSteps.open_Amazon_Homepage()"
+  "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 2129628300,
+  "duration": 2992239000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cmirazakon@outlook.com\u003e",
+      "offset": 18
+    }
+  ],
+  "location": "AmazonLoginSteps.user_input_email(String)"
+});
+formatter.result({
+  "duration": 863251300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cTalentTech777#\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "AmazonLoginSteps.user_enter_passwords(String)"
+});
+formatter.result({
+  "duration": 199541700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+});
+formatter.result({
+  "duration": 2171747500,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.search_for_toys()"
 });
 formatter.result({
-  "duration": 4333701600,
+  "duration": 3191665800,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.item_list_should_have_only_toys_related_products()"
 });
 formatter.result({
-  "duration": 481518600,
+  "duration": 192844000,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonReturnSteps.user_should_return_back_to_the_homepage()"
 });
 formatter.result({
-  "duration": 1349681100,
+  "duration": 990475000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 223686900,
+  "duration": 211495900,
   "status": "passed"
 });
 formatter.uri("AmazonSearch.feature");
@@ -223,7 +307,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6422737700,
+  "duration": 3018651100,
   "status": "passed"
 });
 formatter.scenario({
@@ -236,47 +320,95 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "Open Amazon Homepage",
+  "name": "user open Amazon Home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
+  "name": "user input email \"\u003cmirazakon@outlook.com\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enter passwords \"\u003cTalentTech777#\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user should able to land on his account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
   "name": "Search for diapers",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 10,
   "name": "Item list should have only diapers related products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonSearchSteps.open_Amazon_Homepage()"
+  "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 1770646400,
+  "duration": 3108146000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cmirazakon@outlook.com\u003e",
+      "offset": 18
+    }
+  ],
+  "location": "AmazonLoginSteps.user_input_email(String)"
+});
+formatter.result({
+  "duration": 834920600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cTalentTech777#\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "AmazonLoginSteps.user_enter_passwords(String)"
+});
+formatter.result({
+  "duration": 217979600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+});
+formatter.result({
+  "duration": 2274194900,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonSearchSteps.search_for_diapers()"
 });
 formatter.result({
-  "duration": 3888435900,
+  "duration": 3103153600,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonSearchSteps.item_list_should_have_only_diapers_related_products()"
 });
 formatter.result({
-  "duration": 190401500,
+  "duration": 120169500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 230413200,
+  "duration": 209222000,
   "status": "passed"
 });
 formatter.uri("CartPageFunction.feature");
 formatter.feature({
-  "line": 3,
+  "line": 2,
   "name": "Cart Page Functionality",
   "description": "",
   "id": "cart-page-functionality",
@@ -289,7 +421,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4869543300,
+  "duration": 4600836800,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,54 +434,102 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "User in homepage",
+  "name": "user open Amazon Home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "User search for item",
-  "keyword": "When "
+  "name": "user input email \"\u003cmirazakon@outlook.com\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "User add item to card",
+  "name": "user enter passwords \"\u003cTalentTech777#\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
+  "name": "user should able to land on his account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User search for item",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "User add item to card",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
   "name": "User able to see in the cart",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CartPageSteps.user_in_homepage()"
+  "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 1765498700,
+  "duration": 2673081600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cmirazakon@outlook.com\u003e",
+      "offset": 18
+    }
+  ],
+  "location": "AmazonLoginSteps.user_input_email(String)"
+});
+formatter.result({
+  "duration": 932034400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cTalentTech777#\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "AmazonLoginSteps.user_enter_passwords(String)"
+});
+formatter.result({
+  "duration": 186615300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+});
+formatter.result({
+  "duration": 3016133000,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_search_for_item()"
 });
 formatter.result({
-  "duration": 9521075100,
+  "duration": 2484676800,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_add_item_to_card()"
 });
 formatter.result({
-  "duration": 40564767700,
+  "duration": 40162852100,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.user_able_to_see_in_the_cart()"
 });
 formatter.result({
-  "duration": 294696000,
+  "duration": 171652600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 220678600,
+  "duration": 191859700,
   "status": "passed"
 });
 formatter.uri("EndtoEnd.feature");
@@ -367,7 +547,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6895665300,
+  "duration": 4295906400,
   "status": "passed"
 });
 formatter.scenario({
@@ -437,7 +617,7 @@ formatter.match({
   "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 3442496100,
+  "duration": 2997321100,
   "status": "passed"
 });
 formatter.match({
@@ -450,9 +630,8 @@ formatter.match({
   "location": "AmazonLoginSteps.user_input_email(String)"
 });
 formatter.result({
-  "duration": 40093468300,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027ap_email\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-9L5U5K8V\u0027, ip: \u0027192.168.0.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\mahin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6463c12464aa9cc847ee0afcccf7f638\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027ap_email\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat tt.amazon.pageAction.AmazonLoginActions.input_email(AmazonLoginActions.java:41)\r\n\tat tt.amazon.stepDef.AmazonLoginSteps.user_input_email(AmazonLoginSteps.java:30)\r\n\tat ✽.And user input email \"\u003cmirazakon@outlook.com\u003e\"(EndtoEnd.feature:6)\r\n",
-  "status": "failed"
+  "duration": 600812300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -464,13 +643,15 @@ formatter.match({
   "location": "AmazonLoginSteps.user_enter_passwords(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 210403000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2296062500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -482,46 +663,53 @@ formatter.match({
   "location": "EnedToEndstepDef.user_input_in_search_box_and_click_on_it(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3225541600,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_select_a_item_on_the_search_result()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4380227600,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_added_the_item_to_the_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1177641000,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_does_not_include_the_accident_protection_plan()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 713455400,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_verifiest_that_item_is_added_to_the_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 85903900,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_clicks_on_go_to_cart_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3641849800,
+  "status": "passed"
 });
 formatter.match({
   "location": "EnedToEndstepDef.user_verifies_sub_total_on_the_shopping_cart_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 58319700,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 216133700,
+  "duration": 4168066900,
   "status": "passed"
 });
 formatter.uri("LoginFunctionality.feature");
@@ -539,7 +727,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3931410300,
+  "duration": 4040219400,
   "status": "passed"
 });
 formatter.scenario({
@@ -574,7 +762,7 @@ formatter.match({
   "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 3382464300,
+  "duration": 3037419500,
   "status": "passed"
 });
 formatter.match({});
@@ -592,7 +780,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 233789200,
+  "duration": 4140383700,
   "status": "passed"
 });
 formatter.uri("PrimeVdo.feature");
@@ -610,7 +798,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5087445700,
+  "duration": 4456850700,
   "status": "passed"
 });
 formatter.scenario({
@@ -623,120 +811,114 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "user in Amazon Home page",
+  "name": "user open Amazon Home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "user clicks All",
-  "keyword": "When "
+  "name": "user input email \"\u003cmirazakon@outlook.com\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "user clicks on Prime Video",
-  "keyword": "When "
+  "name": "user enter passwords \"\u003cTalentTech777#\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "user clicks on Prime Video again",
+  "name": "user should able to land on his account",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
+  "name": "user clicks All",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "user clicks on Prime Video",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "user clicks on Prime Video again",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
   "name": "user should able to land on Amazon Prime Video",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "PrimeVideoSteps.user_in_Amazon_Home_page()"
+  "location": "AmazonLoginSteps.user_open_Amazon_Home_page()"
 });
 formatter.result({
-  "duration": 2345732800,
+  "duration": 2928213800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cmirazakon@outlook.com\u003e",
+      "offset": 18
+    }
+  ],
+  "location": "AmazonLoginSteps.user_input_email(String)"
+});
+formatter.result({
+  "duration": 861629400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cTalentTech777#\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "AmazonLoginSteps.user_enter_passwords(String)"
+});
+formatter.result({
+  "duration": 197729800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonLoginSteps.user_should_able_to_land_on_his_account()"
+});
+formatter.result({
+  "duration": 2832615100,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_All()"
 });
 formatter.result({
-  "duration": 774743300,
+  "duration": 175385100,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_on_Prime_Video()"
 });
 formatter.result({
-  "duration": 2366222700,
+  "duration": 2514244300,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_clicks_on_Prime_Video_again()"
 });
 formatter.result({
-  "duration": 2527302700,
+  "duration": 5075641700,
   "status": "passed"
 });
 formatter.match({
   "location": "PrimeVideoSteps.user_should_able_to_land_on_Amazon_Prime_Video()"
 });
 formatter.result({
-  "duration": 1158099300,
+  "duration": 640487800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 255918400,
-  "status": "passed"
-});
-formatter.uri("SearchFromExcel.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Read Excel file for search Funtionality",
-  "description": "",
-  "id": "read-excel-file-for-search-funtionality",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@regression"
-    }
-  ]
-});
-formatter.before({
-  "duration": 6307127100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 4,
-  "name": "Users continuous Functionality",
-  "description": "",
-  "id": "read-excel-file-for-search-funtionality;users-continuous-functionality",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "user in Amazon Home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Search from Excel",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "PrimeVideoSteps.user_in_Amazon_Home_page()"
-});
-formatter.result({
-  "duration": 2408178100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SearchFromExcelSteps.search_from_Excel()"
-});
-formatter.result({
-  "duration": 8798896800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 241059000,
+  "duration": 216249200,
   "status": "passed"
 });
 });

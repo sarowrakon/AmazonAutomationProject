@@ -7,45 +7,36 @@ import tt.utilities.SetupDrivers;
 
 import static tt.utilities.SetupDrivers.driver;
 
-
 public class PrimeVdoActions {
 
-    PrimeVdoLocators primeVdoLocatorsobj;
-    public PrimeVdoActions(){
-        primeVdoLocatorsobj= new PrimeVdoLocators();
-        PageFactory.initElements(driver, primeVdoLocatorsobj);
-    }
+	PrimeVdoLocators primeVdoLocatorsobj;
 
-    public void clickAll(){
-        primeVdoLocatorsobj.all.click();
-    }
+	public PrimeVdoActions() {
+		primeVdoLocatorsobj = new PrimeVdoLocators();
+		PageFactory.initElements(driver, primeVdoLocatorsobj);
+	}
 
-    public void primeVdo()throws Exception{
-        primeVdoLocatorsobj.primeVdo.click();
-        Thread.sleep(2000);
+	public void clickAll() {
+		primeVdoLocatorsobj.all.click();
+	}
 
-    }
+	public void primeVdo() throws Exception {
+		primeVdoLocatorsobj.primeVdo.click();
+		Thread.sleep(2000);
 
-    public void clickIncluddPrime() throws InterruptedException {
-        primeVdoLocatorsobj.includedPrime.click();
-        Thread.sleep(2000);
-    }
+	}
 
-    public void PrimeVdoActionsValidation(){
-//        AllDropDownLocatorsobj.AmznBestSlr.isDisplayed();
+	public void clickIncluddPrime() throws InterruptedException {
+		primeVdoLocatorsobj.includedPrime.click();
+		Thread.sleep(2000);
+	}
 
-        String primeTitle = driver.getTitle();
-        Assert.assertEquals("Amazon.com: Prime Video: Prime Video", primeTitle);
-        System.out.println("Title: "+primeTitle);
+	public void PrimeVdoActionsValidation() {
+		// AllDropDownLocatorsobj.AmznBestSlr.isDisplayed();
 
-        if (primeTitle.contains("Amazon.com: Prime Video: Prime Video")) {
-            System.out.println(">>> PASSED");
-        } else {
-            System.out.println(">>> FAILED");
-            Assert.fail();
-        }
-    }
-
-
+		String actualTitle = driver.getTitle();
+		String expectedTitle = "Amazon.com: Prime Video: Prime Video";
+		Assert.assertTrue(actualTitle.contains(expectedTitle));
+	}
 
 }
